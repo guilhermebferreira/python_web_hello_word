@@ -1,6 +1,18 @@
 # python_web_hello_word
 Apenas um hello word demonstrativo com Django e Flask, para fins didaticos
 
+### Install
+
+Presumindo que o python3 já esteja devidamente instalado
+
+#### Instalando pip3
+    sudo apt-get install python3-pip python3-dev
+
+
+#### Instalando virtualenv
+    pip3 install virtualenv
+
+
 
 ## Flask
 
