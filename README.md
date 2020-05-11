@@ -4,6 +4,8 @@ Apenas um hello word demonstrativo com Django e Flask, para fins didaticos
 
 ## Flask
 
+    cd flask
+
 ##### Criando o virtualenv
 
     virtualenv -p python3 venv
@@ -31,3 +33,39 @@ ou
 ou
 
     flask run --host=0.0.0.0
+    
+
+## Django
+
+    cd django
+    
+##### Criando o virtualenv
+
+    virtualenv -p python3 venv
+    
+    
+##### Ativando-o
+    
+    . venv/bin/activate
+    
+    
+##### Aplicando as migrations no banco de dados
+No caso, são os models do django-admin
+    
+    ./manage.py migrate
+    
+    
+##### Rodando
+
+    ./manage.py runserver
+    
+ou
+    
+    ./manage.py runserver localhost:1111
+
+
+
+### Desativando o virtualenv
+
+    deactivate
+
